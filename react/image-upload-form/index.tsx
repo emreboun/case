@@ -26,7 +26,7 @@ interface UploadImageFormProps {
   onScreenshot: () => void;
 }
 
-const UploadImageForm: React.FC<UploadImageFormProps> = ({
+export const UploadImageForm: React.FC<UploadImageFormProps> = ({
   info,
   screenshot,
   onSubmit,
@@ -228,5 +228,3 @@ const b64toBlob = (
   const blob = new Blob(byteArrays, { type: contentType });
   return blob;
 };
-
-export default UploadImageForm;
