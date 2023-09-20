@@ -1,0 +1,52 @@
+.limitedLines{
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+}
+
+.fullSize{
+  height: 100%;
+  width: 100%;
+  flex: 1;
+}
+
+.fullScreen {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.btnActive{
+  color: #15202B;
+  font-weight: 550;
+  background-color: #a5b4c3 !important;
+}
+
+.listWrapper{
+  flex: 1;
+  height:auto;
+  max-height: 100%;
+}
+
+.listInner{
+  height: 100%;
+  width: 100%;
+  padding-left: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  margin-bottom:0;
+  margin-top:0;
+ 
+}
+
+.listItem{
+  background-color: inherit ;
+}
+
+.divHeight{
+  height: calc(100% - 48px);
+}
